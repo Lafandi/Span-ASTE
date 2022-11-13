@@ -9,7 +9,7 @@
     "token_indexers": {
       "bert": {
         "max_length": 512,
-        "model_name": "bert-base-cased",
+        "model_name": "bert-base-multilingual-cased",
         "type": "pretrained_transformer_mismatched"
       }
     },
@@ -20,7 +20,7 @@
       "token_embedders": {
         "bert": {
           "max_length": 512,
-          "model_name": "bert-base-cased",
+          "model_name": "bert-base-multilingual-cased",
           "type": "pretrained_transformer_mismatched"
         }
       }
